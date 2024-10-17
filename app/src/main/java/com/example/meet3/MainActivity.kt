@@ -39,54 +39,11 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 fun BasicCompose(modifier: Modifier = Modifier){
-
     Column (horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center, modifier = Modifier.fillMaxSize()
     ){
-        Text(
-            text = "Indonesia",
-            style = TextStyle(
-                fontSize =  50.sp,
-                fontWeight = FontWeight.Bold,
-                color = Color.Blue,
-            ),
-
-        )
-        Text(
-            text = "0",
-            fontWeight = FontWeight.Bold,
-            fontSize = 25.sp
-        )
-
-        Image(
-            painter = painterResource(id = R.drawable.logofifa),
-            contentDescription = null)
-
-        Text(
-            text = "NAMA :",
-            fontWeight = FontWeight.Bold,
-            fontSize = 20.sp
-        )
-
-        Text(
-            text = "Zahrotul Jannah",
-            fontWeight = FontWeight.Bold,
-            fontSize = 20.sp
-        )
-
-        Text(
-            text = "202201400066",
-            fontWeight = FontWeight.Bold,
-            fontSize = 20.sp
-        )
-
-        Image(
-            painter = painterResource(id = R.drawable.gambar),
-            contentDescription = null)  
-
 
     }
-}
 
 
 
