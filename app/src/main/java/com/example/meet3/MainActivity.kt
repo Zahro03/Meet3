@@ -63,11 +63,19 @@ fun BasicCompose(modifier: Modifier = Modifier){
             contentDescription = null)
 
         Text(
+            text = "NAMA :",
             fontWeight = FontWeight.Bold,
             fontSize = 20.sp
         )
 
         Text(
+            text = "Zahrotul Jannah",
+            fontWeight = FontWeight.Bold,
+            fontSize = 20.sp
+        )
+
+        Text(
+            text = "202201400066",
             fontWeight = FontWeight.Bold,
             fontSize = 20.sp
         )
